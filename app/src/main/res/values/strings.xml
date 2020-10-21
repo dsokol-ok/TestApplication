@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Test Application Subtitle</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_file">File</string>
+    <string name="menu_counter">Counter</string>
+    <string name="menu_push">Push</string>
+    <string name="text_counter">Счетчик чего-то.\nСчитать в минус не умеем</string>
+    <string name="title_push">Срочно откройте экран File</string>
+    <string name="body_push">Сообщение: %1$s</string>
+    <string name="readable_title">Channel human readable title</string>
+    <string name="launch_push">launch push</string>
+    <string name="text_hint_push">Текст для пуша</string>
+    <string name="placeholder_text_push">Введите хотя бы один символ</string>
+    <string name="decrease">decrease</string>
+    <string name="increase">increase</string>
+    <string name="info_push_text">Попробуем отправить Push. \n Пустой отправить не получится</string>
+    <string name="info_file">Создаем файл .txt и пишем в него чего-нибудь</string>
+    <string name="write_text_to_file">Write text to file</string>
+    <string name="create_file">create file</string>
+    <string name="text_for_file">Текст для записи в файл</string>
+    <string name="file_path">Создан файл во внутреннем хранилище.\n Path: %1$s</string>
+    <string name="read_from_file">read from file</string>
+</resources>

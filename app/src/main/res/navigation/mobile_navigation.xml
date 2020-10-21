@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_file">
+
+    <fragment
+        android:id="@+id/nav_file"
+        android:name="com.example.testapplication.ui.file.FileFragment"
+        android:label="@string/menu_file"
+        tools:layout="@layout/fragment_file_home" />
+
+    <fragment
+        android:id="@+id/nav_counter"
+        android:name="com.example.testapplication.ui.counter.CounterFragment"
+        android:label="@string/menu_counter"
+        tools:layout="@layout/fragment_counter" />
+
+    <fragment
+        android:id="@+id/nav_push"
+        android:name="com.example.testapplication.ui.push.PushFragment"
+        android:label="@string/menu_push"
+        tools:layout="@layout/fragment_push" />
+</navigation>
